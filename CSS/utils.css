@@ -1,0 +1,25 @@
+/* this is a container property */
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-cross-center{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 2px 5px 3px 5px;
+    cursor: pointer;
+    background-color: var(--main-bg-color);
+    border: 1px solid white;
+    color: white;
+}
+.btn:hover{
+    padding: 2px 5px 3px 5px;
+    cursor: pointer;
+    background-color: var(--main-bg-color);
+    border: 1px solid white;
+    color: white;
+    transform: translate(-1px, -2px);
+}

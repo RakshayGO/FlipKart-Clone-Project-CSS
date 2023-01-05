@@ -1,0 +1,26 @@
+@media screen and (max-width: 830px) {
+    nav{
+        flex-direction: column;
+    }
+    .search{
+        margin: 3px auto;
+    }
+    nav ul{
+        height: 4vh;
+    }
+    .logo{
+        margin: 5px auto;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .slider{
+        height: 30vh;
+    }
+    .card img{
+        width: 30vw;
+    }
+    .lines{
+        font-size: small;
+    }
+}
